@@ -1,0 +1,60 @@
+.container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 25% 25% 25% 25% ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+} 
+
+article {
+    width: 400px;
+    height: 400px;  
+}
+
+
+/*Carrés et placement des carrés*/
+.case1 {
+    background-color: #00916E;
+    grid-column-start: 2;
+}
+
+.case2 {
+    background-color: #FFCF00;
+    grid-column-start: 3;
+}
+
+.case3 {
+    background-color: #EE6123;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.case4 {
+    background-color: #FA003F;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.case5 {
+    background-color: #9D44B5;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.case6 {
+    background-color: #9ECE27;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.case7 {
+    background-color: #084C61;
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.case8 {
+    background-color: #FFA552;
+    grid-column-start: 3;
+    grid-row-start: 4;
+}

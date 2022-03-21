@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+    width: 1700px;
+    display: flex;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+/*Navbar*/
+header {
+    background-color: #202020;
+    position: absolute;
+    width: 1700px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+li, a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #f1f1f1;
+    text-decoration: none;      
+}
+.nav_links {  /*Pour retirer le petit point de la liste nav*/
+    list-style: none;
+    display: flex;
+}
+
+.nav_links li { /*Pour aligner la liste nav*/
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+/*carré bleu*/
+
+#section { /*Il faut que l'element mis en flexbox soit dans une id comme celle-là #id, comme ça l'objet bleu veut bien bouger*/
+    width: 1700px;
+    height: 1024px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.bleu {
+    background-color: #179DA1;
+    width: 300px;
+    height: 300px;
+}
